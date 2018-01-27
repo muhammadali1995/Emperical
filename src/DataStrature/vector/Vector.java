@@ -1,6 +1,5 @@
 package DataStrature;
 
-import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Vector {
@@ -52,8 +51,7 @@ public class Vector {
      * in case there is no item at the given index it throws IndexOutOfBoundException
      */
     public Object at(int index) {
-
-        if (size <= index) {
+        if (size < index) {
             throw new IndexOutOfBoundsException();
         } else {
             return array[index];
@@ -88,26 +86,36 @@ public class Vector {
     public void insert(int index, Object item) {
         if (size < index) {
             throw new IndexOutOfBoundsException();
-        } else {
-            if (size == index) {
-                if (array.length)
+        } else if (size == index) {
+            Object temp[] = array;
+            this.array = new Object[temp.length * 2];
+            for (int i = 0; i < temp.length; i++) {
+                this.array[i] = temp[i];
             }
+            this.array[index] = item;
+            size++;
+        } else {
+            for (int i = size; i > index; i--) {
+                array[i] = array[i - 1];
+            }
+            array[index] = item;
+            size++;
         }
     }
 
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        /*int n = scanner.nextInt();
+        int n = scanner.nextInt();
         Vector vector = new Vector();
         for (int i = 0; i < n; i++) {
             vector.push(scanner.next());
         }
-        for (int i = 0; i < n; i++) {
+        vector.insert(2, 5);
+        System.out.println(vector.size());
+        for (int i = 0; i < vector.size(); i++) {
             System.out.println(vector.at(i));
-        }*/
-        ArrayList list = new ArrayList();
-        list.add(0, 10);
-        System.out.println(list.size());
+        }
+
     }
 }
