@@ -1,6 +1,4 @@
-package DataStrature;
-
-import java.util.Scanner;
+package DataStrature.vector;
 
 public class Vector {
     /**
@@ -21,6 +19,21 @@ public class Vector {
     }
 
     /**
+     * The Vector () constructor gets an initial capacity
+     * if it is not power of 2 then will be raised to power of 2
+     */
+    public Vector(int capacity) {
+        double power = 16;
+        int i = 4;
+        while (capacity > power) {
+            i++;
+            power = Math.pow(2, i);
+        }
+        capacity = (int) power;
+        array = new Object[capacity];
+    }
+
+    /**
      * The size() methods returns the number of items in the vector
      */
     public int size() {
@@ -38,12 +51,12 @@ public class Vector {
      * The isEmpty methods return true if the current vector does not have any items, otherwise false
      */
     public boolean isEmpty() {
-
         if (size == 0) {
             return true;
         } else {
             return false;
         }
+
     }
 
     /**
@@ -64,17 +77,27 @@ public class Vector {
      * to capacity of the array, then the capacity of the array will be doubled
      */
     public void push(Object item) {
+        this.resize();
+        size++;
+        array[size - 1] = item;
+    }
+
+    /**
+     * The resize() method set a new capacity once the array capacity is full
+     */
+    private void resize() {
         if (size == array.length) {
             Object temp[] = array;
             this.array = new Object[temp.length * 2];
             for (int i = 0; i < temp.length; i++) {
                 this.array[i] = temp[i];
             }
-            this.array[temp.length] = item;
-            size++;
-        } else {
-            size++;
-            array[size - 1] = item;
+        } else if (size == (array.length / 4)) {
+            Object temp[] = this.array;
+            this.array = new Object[this.array.length / 2];
+            for (int i = 0; i < size; i++) {
+                this.array[i] = temp[i];
+            }
         }
     }
 
@@ -86,15 +109,8 @@ public class Vector {
     public void insert(int index, Object item) {
         if (size < index) {
             throw new IndexOutOfBoundsException();
-        } else if (size == index) {
-            Object temp[] = array;
-            this.array = new Object[temp.length * 2];
-            for (int i = 0; i < temp.length; i++) {
-                this.array[i] = temp[i];
-            }
-            this.array[index] = item;
-            size++;
         } else {
+            this.resize();
             for (int i = size; i > index; i--) {
                 array[i] = array[i - 1];
             }
@@ -103,19 +119,63 @@ public class Vector {
         }
     }
 
-
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int n = scanner.nextInt();
-        Vector vector = new Vector();
-        for (int i = 0; i < n; i++) {
-            vector.push(scanner.next());
-        }
-        vector.insert(2, 5);
-        System.out.println(vector.size());
-        for (int i = 0; i < vector.size(); i++) {
-            System.out.println(vector.at(i));
-        }
-
+    /**
+     * The prepend() method accepts an argument and add it to the beginning of the vector
+     */
+    public void prepend(Object item) {
+        this.resize();
+        insert(0, item);
     }
+
+    /**
+     * The pop() methods remove an item from the vector
+     */
+    public Object pop() {
+        Object value = this.array[size - 1];
+        this.array[size - 1] = null;
+        size--;
+        this.resize();
+        return value;
+    }
+
+    /**
+     * The delete() methods gets an index as an argument and
+     * delete item at index, shifting all trailing elements left
+     */
+    public void delete(int index) {
+        for (int i = index; i < size; i++) {
+            array[i] = array[i + 1];
+        }
+        this.array[size - 1] = null;
+        size--;
+    }
+
+    /**
+     * The remove() method gets an item as an argument and
+     * looks for value and removes index holding it (even if
+     * in multiple places)
+     */
+    public void remove(Object item) {
+        for (int i = 0; i < size; i++) {
+            if (array[i] == item) {
+                this.delete(i);
+                break;
+            }
+        }
+    }
+
+    /**
+     * The find() method gets an item as an argument and
+     * looks for value and returns first index
+     * with that value, -1 if not found
+     */
+    public int find(Object item) {
+        for (int i = 0; i < size; i++) {
+            if (array[i].equals(item)) {
+                return i;
+            }
+        }
+        return -1;
+    }
+
 }
