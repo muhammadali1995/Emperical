@@ -1,4 +1,4 @@
-package DataStrature.vector;
+package DataStructure.vector;
 
 /**
  * The class includes tests for all the methods of the Vector class;

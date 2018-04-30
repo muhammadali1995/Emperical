@@ -1,4 +1,4 @@
-package DataStrature.vector;
+package DataStructure.vector;
 
 public class Vector {
     /**
