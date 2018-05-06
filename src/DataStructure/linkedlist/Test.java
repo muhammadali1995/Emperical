@@ -22,7 +22,6 @@ public class Test {
          * testing valueAt() function
          * */
         linkedList.pushFront(2);
-        linkedList.insert(1, 12);
         linkedList.insert(2, 22);
         assert linkedList.valueAt(2) == (Integer) 22 : "the value must be equal to 22";
 
