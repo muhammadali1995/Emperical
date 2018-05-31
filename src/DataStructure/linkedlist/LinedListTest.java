@@ -1,6 +1,8 @@
 package DataStructure.linkedlist;
 
-public class Test {
+import DataStructure.queue.LinkedList;
+
+public class LinedListTest {
     public static void main(String[] args) throws Exception {
         SingleLinkedList linkedList = new SingleLinkedList();
 
@@ -17,7 +19,6 @@ public class Test {
          * */
         assert linkedList.empty() : "the value returned should be true";
 
-
         /**
          * testing valueAt() function
          * */
@@ -25,30 +26,51 @@ public class Test {
         linkedList.insert(2, 22);
         assert linkedList.valueAt(2) == (Integer) 22 : "the value must be equal to 22";
 
-
+        /**
+         * testing pushFront()
+         * */
 
         linkedList.pushFront(2);
         linkedList.pushFront(3);
-        linkedList.popFront();
+        assert linkedList.valueAt(1) == (Integer) 3 : "the value at front should be equal to 3";
+        LinkedList linkedListTwo = new LinkedList();
+        linkedList.pushFront(1);
+        assert linkedList.popFront() == (Integer) 1 : "the value at front should be equal to 1";
+
+        /**
+         * Testing popFront()
+         * */
+        linkedList.pushFront(23);
+        linkedList.pushFront(45);
+        assert linkedList.popFront() == (Integer) 45 : "the value returned by popFront should be equal to 45";
+
+        /**
+         * Testing pushBack()
+         * */
         linkedList.pushBack(12);
+        assert linkedList.popBack() == (Integer) 12 : "the value at back should be equal to 12";
         linkedList.pushBack(13);
+        linkedList.pushBack(78);
+        assert linkedList.popBack() == (Integer) 78 : "the value at the back should be 78";
+
         linkedList.pushFront(25);
         linkedList.popBack();
         linkedList.insert(2, 99);
         linkedList.insert(5, 1);
         linkedList.insert(6, 2);
 
-        for (int i = 1; i <= linkedList.size; i++) {
-            System.out.println(linkedList.valueAt(i));
-        }
         linkedList.removeValue(1);
+        linkedList.pushFront(1);
+        linkedList.removeValue(1);
+        System.out.println(linkedList.size);
+        linkedList.insert(1, 12);
+        linkedList.removeValue(1);
+        //remove
         for (int i = 1; i <= linkedList.size; i++) {
             System.out.println(linkedList.valueAt(i));
         }
-        SingleLinkedList linkedList2 = new SingleLinkedList();
-        linkedList2.pushFront(1);
-        linkedList2.removeValue(1);
-        System.out.println(linkedList2.size);
+
+        // reverse the list
 
 
     }

@@ -108,14 +108,15 @@ public class SingleLinkedList {
      * insert an item at the given position and the item in the given position is pointed to
      */
     public void insert(int index, Object value) throws Exception {
-        if (index <= size + 1) {
-            /*if (index == 1) {
-                SingleListNode node = this.head;
-                this.head = new SingleListNode(value, this.head);
-            }*/
+        if (index <= size + 1 || index < 1) {
             SingleListNode node = head.nth(index - 1);
-            node.next = new SingleListNode(value, node.next);
-            size++;
+            if (node == null) {
+                this.head = new SingleListNode(value, this.head);
+                size++;
+            } else {
+                node.next = new SingleListNode(value, node.next);
+                size++;
+            }
         } else {
             throw new Exception("Index can be only 1 more than the size of the list");
         }
@@ -146,7 +147,7 @@ public class SingleLinkedList {
      * the reverses the list
      */
 
-    /*public void reverse() {
+    public void reverse() {
         for (int i = 2; i <= size; i++) {
             swap(head.nth(i-1), head.nth(i));
         }
@@ -157,7 +158,8 @@ public class SingleLinkedList {
         System.out.println("Node 1 " + nodeOne.item);
         System.out.println("Node 2 " + nodeTwo.item);
         nodeTwo.next = nodeOne;
-    }*/
+
+    }
 
     /**
      * removes the first node with the given value in the list
