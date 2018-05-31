@@ -1,5 +1,7 @@
 package DataStructure.linkedlist;
 
+import com.sun.org.apache.xpath.internal.SourceTree;
+
 public class SingleLinkedList {
     /**
      * head holds the head of the Single List
@@ -10,6 +12,7 @@ public class SingleLinkedList {
      */
     public int size;
 
+    private SingleListNode newHead;
     /**
      * the following constructor initializes an empty Single Linked List
      */
@@ -107,16 +110,20 @@ public class SingleLinkedList {
     /**
      * insert an item at the given position and the item in the given position is pointed to
      */
+
     public void insert(int index, Object value) throws Exception {
         if (index <= size + 1 || index < 1) {
-            SingleListNode node = head.nth(index - 1);
-            if (node == null) {
+
+            if (index == 1) {
                 this.head = new SingleListNode(value, this.head);
                 size++;
-            } else {
-                node.next = new SingleListNode(value, node.next);
-                size++;
+                return;
             }
+
+            SingleListNode node = head.nth(index - 1);
+            node.next = new SingleListNode(value, node.next);
+            size++;
+
         } else {
             throw new Exception("Index can be only 1 more than the size of the list");
         }
@@ -126,6 +133,12 @@ public class SingleLinkedList {
      * removes the item in the given position as an argument
      */
     public void erase(int position) {
+        if (position == 1) {
+            head = null;
+            size--;
+            return;
+        }
+
         SingleListNode node = head.nth(position - 1);
         node.next = node.next.next;
         size--;
@@ -148,17 +161,30 @@ public class SingleLinkedList {
      */
 
     public void reverse() {
-        for (int i = 2; i <= size; i++) {
-            swap(head.nth(i-1), head.nth(i));
+        if (size == 1) {
+            return;
         }
 
+        int tmpSize = size;
+        tmpSize--;
+
+        while ((tmpSize - 1) >= 0) {
+            swap(tmpSize);
+            tmpSize--;
+        }
+
+        this.head = newHead;
     }
 
-    public void swap(SingleListNode nodeOne, SingleListNode nodeTwo) {
-        System.out.println("Node 1 " + nodeOne.item);
-        System.out.println("Node 2 " + nodeTwo.item);
-        nodeTwo.next = nodeOne;
-
+    private void swap(int position) {
+        SingleListNode node = head.nth(position);
+        node.next.next = node;
+        if (position == size - 1) {
+            newHead = node.next;
+        }
+        if (position == 1) {
+            node.next = null;
+        }
     }
 
     /**
