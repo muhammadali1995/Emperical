@@ -1,16 +1,16 @@
-package DataStructure.queue;
+package DataStructure.queue.QueueWithLinkedList;
 
 import DataStructure.linkedlist.SingleListNode;
 
 /**
  * Created by User on 5/23/2018.
  */
-public class LinkedList {
+public class QueueLinkedList {
     private SingleListNode head;
     private SingleListNode tail;
     private int size;
 
-    public LinkedList() {
+    public QueueLinkedList() {
         head = null;
         tail = null;
         size = 0;
@@ -31,12 +31,6 @@ public class LinkedList {
         return head.nth(position).item;
     }
 
-    public void pushFront(Object item) {
-        this.head = new SingleListNode(item, this.head);
-        size++;
-    }
-
-
     /**
      * add the item to the end of the list
      */
@@ -53,6 +47,26 @@ public class LinkedList {
             size++;
         }
     }
+
+    /**
+     * removes the first item in the beginning of the list and returns its value
+     */
+    public Object popFront() {
+        if (this.tail == null) {
+            return null;
+        } else {
+            SingleListNode tmpNode = this.head;
+
+            if (this.head.next == null) {
+                this.tail = null;
+            }
+
+            this.head = this.head.next;
+            size--;
+            return tmpNode.item;
+        }
+    }
+
 
 
 
