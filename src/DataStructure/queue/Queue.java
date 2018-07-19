@@ -32,8 +32,8 @@ public class Queue {
      * returns value and removes least recently added element
      * */
 
-    public Object dequeue(){
-      return list.front();
-    }
+//    public Object dequeue(){
+//      return list.front();
+//    }
 
 }
