@@ -7,6 +7,5 @@ public class Comments {
     /**
      * dictionary is an abstract data structure
      * maintain set of items, each with a key
-     *
      * */
 }
