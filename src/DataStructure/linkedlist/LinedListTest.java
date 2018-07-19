@@ -5,7 +5,6 @@ import DataStructure.queue.QueueWithLinkedList.QueueLinkedList;
 public class LinedListTest {
     public static void main(String[] args) throws Exception {
         SingleLinkedList linkedList = new SingleLinkedList();
-
         /**
          * testing  size () function
          * */

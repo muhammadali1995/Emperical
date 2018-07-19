@@ -14,4 +14,11 @@ public class Comments {
      *
      * <Simple approach to create a dictionary is "Direct Access Table">
      * */
+
+    /**
+     * prehash-> maps keys to nonnegative integers
+     * in theory, keys are finite and discrete
+     *
+     * */
+
 }
