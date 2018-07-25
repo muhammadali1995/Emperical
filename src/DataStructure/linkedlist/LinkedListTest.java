@@ -1,6 +1,6 @@
 package DataStructure.linkedlist;
 
-import DataStructure.queue.LinkedList;
+import DataStructure.queue.QueueLinkedList;
 
 public class LinkedListTest {
     public static void main(String[] args) throws Exception {
@@ -33,7 +33,7 @@ public class LinkedListTest {
         linkedList.pushFront(2);
         linkedList.pushFront(3);
         assert linkedList.valueAt(1) == (Integer) 3 : "the value at front should be equal to 3";
-        LinkedList linkedListTwo = new LinkedList();
+        QueueLinkedList linkedListTwo = new QueueLinkedList();
         linkedList.pushFront(1);
         assert linkedList.popFront() == (Integer) 1 : "the value at front should be equal to 1";
 

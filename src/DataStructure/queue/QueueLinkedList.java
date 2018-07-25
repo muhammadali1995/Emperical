@@ -5,12 +5,12 @@ import DataStructure.linkedlist.SingleListNode;
 /**
  * Created by User on 5/23/2018.
  */
-public class LinkedList {
+public class QueueLinkedList {
     private SingleListNode head;
     private SingleListNode tail;
     private int size;
 
-    public LinkedList() {
+    public QueueLinkedList() {
         head = null;
         tail = null;
         size = 0;
@@ -54,6 +54,19 @@ public class LinkedList {
         }
     }
 
+    /**
+     * removes the first node in the list and returns the removed node
+     */
+
+    public Object popFront() {
+        if (head != null) {
+            SingleListNode tmp = head;
+            head = head.next;
+            size--;
+            return tmp.item;
+        }
+        return null;
+    }
 
 
 }
