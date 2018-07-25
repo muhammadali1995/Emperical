@@ -1,29 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="217e77c7-eef1-4eae-a047-b9d2e046a576" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/DataStructure/Notes/AdditionalNotes.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/DataStructure/linkedlist/LinedListTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/DataStructure/queue/QueueWithFixedArray/Queue.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/DataStructure/queue/QueueWithFixedArray/QueueArray.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/DataStructure/queue/QueueWithFixedArray/QueueArrayTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/DataStructure/queue/QueueWithLinkedList/Queue.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/DataStructure/queue/QueueWithLinkedList/QueueLinkedList.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/DataStructure/queue/QueueWithLinkedList/QueueTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Solutions/AddTwoNumbers.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Solutions/LongestPalindromicSubstring.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Solutions/LongestSubstringWRCH.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Solutions/MedianOfTwoSortedArrays.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Solutions/PalindromeNumber.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Solutions/ReverseInteger.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Solutions/TwoSum.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Test1.java" />
+    <list default="true" id="217e77c7-eef1-4eae-a047-b9d2e046a576" name="Default" comment="isPalindrome">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/DataStructure/hashtable/Comments.java" afterPath="$PROJECT_DIR$/src/DataStructure/hashtable/Comments.java" />
-      <change beforePath="$PROJECT_DIR$/src/DataStructure/linkedlist/LinkedListTest.java" afterPath="$PROJECT_DIR$/src/DataStructure/linkedlist/LinkedListTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/DataStructure/queue/LinkedList.java" afterPath="$PROJECT_DIR$/src/DataStructure/queue/QueueLinkedList.java" />
-      <change beforePath="$PROJECT_DIR$/src/DataStructure/queue/Queue.java" afterPath="$PROJECT_DIR$/src/DataStructure/queue/Queue.java" />
-      <change beforePath="$PROJECT_DIR$/src/DataStructure/queue/QueueTest.java" afterPath="$PROJECT_DIR$/src/DataStructure/queue/QueueTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/DataStructure/queue/QueueWithFixedArray/QueueArrayTest.java" afterPath="$PROJECT_DIR$/src/DataStructure/queue/QueueWithFixedArray/QueueArrayTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/Solutions/LongestPalindromicSubstring.java" afterPath="$PROJECT_DIR$/src/Solutions/LongestPalindromicSubstring.java" />
+      <change beforePath="$PROJECT_DIR$/src/Solutions/PalindromeNumber.java" afterPath="$PROJECT_DIR$/src/Solutions/PalindromeNumber.java" />
+      <change beforePath="$PROJECT_DIR$/src/Solutions/ReverseInteger.java" afterPath="$PROJECT_DIR$/src/Solutions/ReverseInteger.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,7 +44,7 @@
             <state relative-caret-position="901">
               <caret line="53" column="20" lean-forward="false" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
               <folding>
-                <marker date="1532521354427" expanded="true" signature="32744:32761" ph="..." />
+                <marker date="1532521355560" expanded="true" signature="32744:32761" ph="..." />
               </folding>
             </state>
           </provider>
@@ -126,8 +109,8 @@
       <file leaf-file-name="PalindromeNumber.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Solutions/PalindromeNumber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="20" lean-forward="false" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+            <state relative-caret-position="255">
+              <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -424,11 +407,18 @@
       <option name="presentableId" value="Default" />
       <updated>1532430109442</updated>
     </task>
+    <task id="LOCAL-00001" summary="isPalindrome">
+      <created>1532521385015</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1532521385015</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -439,8 +429,8 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25266525" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -460,6 +450,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="isPalindrome" />
+    <option name="LAST_COMMIT_MESSAGE" value="isPalindrome" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -489,7 +483,7 @@
         <state relative-caret-position="901">
           <caret line="53" column="20" lean-forward="false" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
           <folding>
-            <marker date="1532521354427" expanded="true" signature="32744:32761" ph="..." />
+            <marker date="1532521355560" expanded="true" signature="32744:32761" ph="..." />
           </folding>
         </state>
       </provider>
@@ -542,8 +536,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Solutions/PalindromeNumber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="20" lean-forward="false" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        <state relative-caret-position="255">
+          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
           <folding />
         </state>
       </provider>

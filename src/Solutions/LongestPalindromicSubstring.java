@@ -5,7 +5,7 @@ package Solutions;
  */
 public class LongestPalindromicSubstring {
     public static void main(String[] args) {
-        System.out.println(longestPalindrome("klvxwqyzugrdoaccdafdfrvxiowkcuedfhoixzipxrkzbvpusslsgfjocvidnpsnkqdfnnzzawzsslwnvvjyoignsfbxkgrokzyusxikxumrxlzzrnbtrixxfioormoyyejashrowjqqzifacecvoruwkuessttlexvdptuvodoavsjaepvrfvbdhumtuvxufzzyowiswokioyjtzzmevttheeyjqcldllxvjraeyflthntsmipaoyjixygbtbvbnnrmlwwkeikhnnmlfspjgmcxwbjyhomfjdcnogqjviggklplpznfwjydkxzjkoskvqvnxfzdrsmooyciwulvtlmvnjbbmffureoilszlonibbcwfsjzguxqrjwypwrskhrttvnqoqisdfuifqnabzbvyzgbxfvmcomneykfmycevnrcsyqclamfxskmsxreptpxqxqidvjbuduktnwwoztvkuebfdigmjqfuolqzvjincchlmbrxpqgguwuyhrdtwqkdlqidlxzqktgzktihvlwsbysjeykiwokyqaskjjngovbagspyspeghutyoeahhgynzsyaszlirmlekpboywqdliumihwnsnwjc"));
+        System.out.println(longestPalindrome("barra"));
     }
 
     public static String longestPalindrome(String s) {
@@ -13,6 +13,9 @@ public class LongestPalindromicSubstring {
         for (int i = 0; i < s.length(); i++) {
             for (int j = s.length(); j > i; j--) {
                 String subString = s.substring(i, j);
+                if (subString.length() < maxPalindrome.length()) {
+                    break;
+                }
                 if (isPalinrome(subString)) {
                     if (subString.length() > maxPalindrome.length()) {
                         maxPalindrome = subString;
@@ -27,29 +30,15 @@ public class LongestPalindromicSubstring {
 
     public static boolean isPalinrome(String s) {
         boolean palindrome = true;
-        int n = s.length();
-
-        if (n == 1) {
-            return true;
-        }
-
-        if (n % 2 == 1) {
-            String firstPart = s.substring(0, n / 2 + 1);
-            String secondPart = s.substring(n / 2, n);
-            for (int i = 0, j = secondPart.length() - 1; i < firstPart.length(); i++, j--) {
-                if (firstPart.charAt(i) != secondPart.charAt(j)) {
-                    palindrome = false;
-                }
-            }
-            return palindrome;
-        }
-
-        String firstPart = s.substring(0, n / 2);
-        String secondPart = s.substring(n / 2, n);
-        for (int i = 0, j = secondPart.length() - 1; i < firstPart.length(); i++, j--) {
-            if (firstPart.charAt(i) != secondPart.charAt(j)) {
+        int n = s.length() - 1;
+        int i = 0;
+        while (i <= n) {
+            if (s.charAt(i) != s.charAt(n)) {
                 palindrome = false;
+                break;
             }
+            i++;
+            n--;
         }
         return palindrome;
     }

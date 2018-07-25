@@ -13,23 +13,23 @@ public class QueueArrayTest {
         queue.enqueue(89);
         queue.enqueue(1254);
         queue.dequeue();
-        assert queue.dequeue() == 23 : "the value dequeued should be 23";
-        assert queue.dequeue() == 89 : "the value dequeued should be 89";
+        assert queue.dequeue() == (Integer) 23 : "the value dequeued should be 23";
+        assert queue.dequeue() == (Integer) 89 : "the value dequeued should be 89";
         queue.enqueue(363);
-        queue.enqueue(3652);
-        queue.enqueue(364);
-        queue.enqueue(3645);
-        queue.enqueue(3634533);
-        queue.enqueue(3678);
-        queue.dequeue();
-        queue.enqueue(36123);
-        queue.enqueue(234);
-        queue.enqueue(784);
-
-        Queue queue1 = new Queue();
-        queue1.enqueue(2);
-
-
+//        queue.enqueue(3652);
+//        queue.enqueue(364);
+//        queue.enqueue(3645);
+//        queue.enqueue(3634533);
+//        queue.enqueue(3678);
+//        queue.dequeue();
+//        queue.enqueue(36123);
+//        queue.enqueue(234);
+//        queue.enqueue(784);
+//
+//        Queue queue1 = new Queue();
+//        queue1.enqueue(2);
+//
+//
     }
 
 }
