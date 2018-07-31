@@ -4,8 +4,8 @@ import java.util.List;
 
 public class AddTwoNumbers {
     public static void main(String[] args) {
-        int[] arr1 = new int[]{2,4,3};
-        int[] arr2 = new int[]{5,6, 4};
+        int[] arr1 = new int[]{2, 4, 3};
+        int[] arr2 = new int[]{5, 6, 4};
         ListNode l1 = new ListNode(arr1[0]);
         ListNode l2 = new ListNode(arr2[0]);
         ListNode tmp = l1;
@@ -39,7 +39,7 @@ public class AddTwoNumbers {
 
             if (l1 == null && l2 == null) {
                 hasNext = false;
-                if (result > 0){
+                if (result > 0) {
                     tmp.next = new ListNode(result % 10);
                 }
                 break;
@@ -85,13 +85,4 @@ public class AddTwoNumbers {
         return new ListNode(val);
     }
 
-}
-
-class ListNode {
-    int val;
-    ListNode next;
-
-    ListNode(int x) {
-        val = x;
-    }
 }
