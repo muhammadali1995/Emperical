@@ -35,8 +35,11 @@ public class MergeKSortedLists {
         while (lists.length > i) {
 
         }
-
-
         return null;
+    }
+
+
+    public  static ListNode mergeTwoLinkedList(){
+
     }
 }
