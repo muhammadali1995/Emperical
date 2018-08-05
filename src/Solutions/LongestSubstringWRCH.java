@@ -1,7 +1,5 @@
 package Solutions;
 
-import java.util.ArrayList;
-
 /**
  * Created by User on 7/21/2018.
  */

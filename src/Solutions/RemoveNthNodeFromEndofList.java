@@ -1,24 +1,24 @@
 package Solutions;
 
-import java.util.List;
-
 /**
  * Created by User on 7/29/2018.
  */
 public class RemoveNthNodeFromEndofList {
 
     public static void main(String[] args) {
-        int[] arr1 = new int[]{2, 4, 3};
+        int[] arr1 = new int[]{1, 2, 3, 4, 5};
         ListNode l1 = new ListNode(arr1[0]);
         ListNode tmp = l1;
         for (int i = 1; i < arr1.length; i++) {
             tmp.next = new ListNode(arr1[i]);
             tmp = tmp.next;
         }
+        removeNthFromEnd(l1, 1);
 
-        System.out.println(removeNthFromEnd(l1, 3).val);
-
-
+        while (l1.next != null) {
+            System.out.println(l1.val);
+            l1 = l1.next;
+        }
     }
 
 
@@ -34,13 +34,13 @@ public class RemoveNthNodeFromEndofList {
         int i = 1;
         ListNode nextTmp = head;
         while (nextTmp.next != null) {
-            if (i == size - n) {
-                nextTmp.next = nextTmp.next.next;
-                if (i == 1) {
-                    nextTmp = nextTmp.next;
-                    head = nextTmp;
-                }
+            if (size - n == 0) {
+                nextTmp = nextTmp.next;
+                head = nextTmp;
                 return head;
+            } else if (i == size - n) {
+                nextTmp.next = nextTmp.next.next;
+                return nextTmp;
             }
             i++;
             nextTmp = nextTmp.next;
