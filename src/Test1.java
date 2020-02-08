@@ -7,7 +7,8 @@ public class Test1 {
 
     public static void main(String[] args) {
 
-        Test1 test1 = new Test1();
+        System.out.println("hello, we are back again");
+//        Test1 test1 = new Test1();
 //        System.out.println(test1.hasNValues(new int[]{1, 2, 2, 1}, 2));
 //        System.out.println(test1.hasNValues(new int[]{1, 1, 1, 8, 1, 1, 1, 3, 3}, 3));
 //        System.out.println(test1.hasNValues(new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, 10));
@@ -30,7 +31,7 @@ public class Test1 {
 //        System.out.println(test1.isOnionArray(new int[]{-2, 5, 0, 5, 12}));
 //
 
-        System.out.println(test1.isOnionArray(new int[]{1, 2, 3, 4, 5, 5, 1, 0, 9, 4}));
+//        System.out.println(test1.isOnionArray(new int[]{1, 2, 3, 4, 5, 5, 1, 0, 9, 4}));
 
     }
 

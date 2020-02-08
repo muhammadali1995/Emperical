@@ -1,6 +1,5 @@
 package DataStructure.linkedlist;
 
-import com.sun.org.apache.xpath.internal.SourceTree;
 
 public class SingleLinkedList {
     /**
