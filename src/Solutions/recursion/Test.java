@@ -1,9 +1,11 @@
 package Solutions.recursion;
 
+import Solutions.ReverseBits;
+
 public class Test {
     public static void main(String[] args) {
-        Fibonacci fibonacci = new Fibonacci();
-        System.out.println(fibonacci.findFibonacciOfN(3));
+        PascalsTriangleII pascalsTriangle = new PascalsTriangleII();
+        pascalsTriangle.getRow(3);
     }
     private static void printReverse(char[] str) {
         helper(0, str);

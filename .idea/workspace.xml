@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="217e77c7-eef1-4eae-a047-b9d2e046a576" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Solutions/recursion/Fibonacci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solutions/recursion/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="217e77c7-eef1-4eae-a047-b9d2e046a576" name="Default" comment="isPalindrome">
+      <change afterPath="$PROJECT_DIR$/src/Solutions/ReverseBits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solutions/recursion/PascalsTriangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solutions/recursion/PascalsTriangleII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solutions/recursion/ReverseString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataStructure/linkedlist/SingleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStructure/linkedlist/SingleLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solutions/recursion/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solutions/recursion/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +36,12 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RunManager" selected="Application.Test">
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -183,7 +189,7 @@
       <workItem from="1580039310611" duration="175000" />
       <workItem from="1580107162001" duration="3015000" />
       <workItem from="1581163771102" duration="292000" />
-      <workItem from="1581164184065" duration="423000" />
+      <workItem from="1581164184065" duration="18130000" />
     </task>
     <task id="LOCAL-00001" summary="isPalindrome">
       <created>1532521385015</created>
@@ -199,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1532783986691</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="isPalindrome">
+      <created>1581164630291</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1581164630291</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,54 +227,97 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="492" y="230" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1280.680@0.0.1280.680" timestamp="1580039320119" />
-    <state width="1237" height="204" key="GridCell.Tab.0.bottom" timestamp="1581164519110">
+    <state x="287" y="0" key="CommitChangelistDialog2" timestamp="1581164629227">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1581164519110" />
-    <state width="1237" height="204" key="GridCell.Tab.0.center" timestamp="1581164519110">
+    <state x="287" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1581164629227" />
+    <state width="1237" height="233" key="GridCell.Tab.0.bottom" timestamp="1581246345432">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1581164519110" />
-    <state width="1237" height="204" key="GridCell.Tab.0.left" timestamp="1581164519110">
+    <state width="1237" height="233" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1581246345432" />
+    <state width="1237" height="233" key="GridCell.Tab.0.center" timestamp="1581246345432">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1581164519110" />
-    <state width="1237" height="204" key="GridCell.Tab.0.right" timestamp="1581164519110">
+    <state width="1237" height="233" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1581246345432" />
+    <state width="1237" height="233" key="GridCell.Tab.0.left" timestamp="1581246345431">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1581164519110" />
-    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1581164475334">
+    <state width="1237" height="233" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1581246345431" />
+    <state width="1237" height="233" key="GridCell.Tab.0.right" timestamp="1581246345432">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1581164475334" />
-    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1581164475334">
+    <state width="1237" height="233" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1581246345432" />
+    <state width="1237" height="193" key="GridCell.Tab.1.bottom" timestamp="1581244593369">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1581164475334" />
-    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1581164475334">
+    <state width="1237" height="193" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1581244593369" />
+    <state width="1237" height="193" key="GridCell.Tab.1.center" timestamp="1581244593368">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1581164475334" />
-    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1581164475334">
+    <state width="1237" height="193" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1581244593368" />
+    <state width="1237" height="193" key="GridCell.Tab.1.left" timestamp="1581244593368">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1581164475334" />
+    <state width="1237" height="193" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1581244593368" />
+    <state width="1237" height="193" key="GridCell.Tab.1.right" timestamp="1581244593368">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="193" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1581244593368" />
+    <state x="233" y="75" key="Vcs.Push.Dialog.v2" timestamp="1581164637686">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="75" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1581164637686" />
     <state x="341" y="166" key="com.intellij.ide.util.TipDialog" timestamp="1581164195356">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="341" y="166" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1581164195356" />
-    <state x="297" y="151" key="run.anything.popup" timestamp="1581164379715">
+    <state x="297" y="151" key="run.anything.popup" timestamp="1581245932458">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1581164379715" />
+    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1581245932458" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Solutions/recursion/Test.java</url>
+          <url>file://$PROJECT_DIR$/src/Solutions/ReverseBits.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Solutions/ReverseBits.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Solutions/ReverseBits.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Solutions/ReverseBits.java</url>
           <line>5</line>
-          <option name="timeStamp" value="8" />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Solutions/ReverseBits.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Solutions/recursion/Test.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Solutions/recursion/PascalsTriangle.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Solutions/recursion/PascalsTriangle.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
