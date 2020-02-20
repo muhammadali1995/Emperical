@@ -1,10 +1,7 @@
 package Solutions.recursion;
 
-class ListNode {
-    int val;
-    ListNode next;
-    ListNode(int x) { val = x;}
-}
+import Solutions.ListNode;
+
 public class ReverseLinkedList {
     ListNode node;
     ListNode lastNode;

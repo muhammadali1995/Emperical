@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="217e77c7-eef1-4eae-a047-b9d2e046a576" name="Default" comment="recursion">
-      <change afterPath="$PROJECT_DIR$/src/Solutions/recursion/ReverseLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solutions/array/SockMerchant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solutions/linkedList/PalindromeLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solutions/recursion/BinarySearchTreeSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solutions/recursion/ClimbingStairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solutions/recursion/MaximumDepthOfBinaryTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solutions/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solutions/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solutions/recursion/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solutions/recursion/Fibonacci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solutions/recursion/ReverseLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solutions/recursion/ReverseLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Solutions/recursion/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solutions/recursion/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,13 +68,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Solutions.ReverseInteger" />
+    <configuration name="SockMerchant" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solutions.array.SockMerchant" />
       <module name="ComputerScience" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Solutions.*" />
+          <option name="PATTERN" value="Solutions.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,19 +151,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ReverseInteger" />
       <item itemvalue="Application.PalindromeNumber" />
       <item itemvalue="Application.TestHash" />
       <item itemvalue="Application.Test1" />
       <item itemvalue="Application.Test" />
+      <item itemvalue="Application.SockMerchant" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Test" />
+        <item itemvalue="Application.SockMerchant" />
         <item itemvalue="Application.Test1" />
         <item itemvalue="Application.TestHash" />
         <item itemvalue="Application.PalindromeNumber" />
-        <item itemvalue="Application.ReverseInteger" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +193,11 @@
       <workItem from="1580107162001" duration="3015000" />
       <workItem from="1581163771102" duration="292000" />
       <workItem from="1581164184065" duration="18324000" />
-      <workItem from="1581308332601" duration="6791000" />
+      <workItem from="1581308332601" duration="11483000" />
+      <workItem from="1581396768913" duration="9870000" />
+      <workItem from="1581748629112" duration="14256000" />
+      <workItem from="1582102061591" duration="11664000" />
+      <workItem from="1582169525355" duration="9873000" />
     </task>
     <task id="LOCAL-00001" summary="isPalindrome">
       <created>1532521385015</created>
@@ -218,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581247602860</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="recursion">
+      <created>1581315897930</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1581315897930</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,62 +250,66 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="492" y="230" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1280.680@0.0.1280.680" timestamp="1580039320119" />
-    <state x="287" y="0" key="CommitChangelistDialog2" timestamp="1581247600975">
+    <state x="396" y="45" key="#xdebugger.evaluate" timestamp="1582178846759">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="287" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1581247600975" />
-    <state width="398" height="438" key="DebuggerActiveHint" timestamp="1581310695675">
+    <state x="396" y="45" key="#xdebugger.evaluate/0.0.1280.680@0.0.1280.680" timestamp="1582178846759" />
+    <state x="287" y="0" key="CommitChangelistDialog2" timestamp="1581315896401">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="398" height="438" key="DebuggerActiveHint/0.0.1280.680@0.0.1280.680" timestamp="1581310695675" />
-    <state width="1237" height="195" key="GridCell.Tab.0.bottom" timestamp="1581314557803">
+    <state x="287" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1581315896401" />
+    <state width="432" height="438" key="DebuggerActiveHint" timestamp="1582178940892">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="195" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1581314557803" />
-    <state width="1237" height="195" key="GridCell.Tab.0.center" timestamp="1581314557803">
+    <state width="432" height="438" key="DebuggerActiveHint/0.0.1280.680@0.0.1280.680" timestamp="1582178940892" />
+    <state width="1237" height="177" key="GridCell.Tab.0.bottom" timestamp="1582184711156">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="195" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1581314557803" />
-    <state width="1237" height="195" key="GridCell.Tab.0.left" timestamp="1581314557803">
+    <state width="1237" height="177" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1582184711156" />
+    <state width="1237" height="177" key="GridCell.Tab.0.center" timestamp="1582184711156">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="195" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1581314557803" />
-    <state width="1237" height="195" key="GridCell.Tab.0.right" timestamp="1581314557803">
+    <state width="1237" height="177" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1582184711156" />
+    <state width="1237" height="177" key="GridCell.Tab.0.left" timestamp="1582184711155">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="195" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1581314557803" />
-    <state width="1237" height="195" key="GridCell.Tab.1.bottom" timestamp="1581314417593">
+    <state width="1237" height="177" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1582184711155" />
+    <state width="1237" height="177" key="GridCell.Tab.0.right" timestamp="1582184711156">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="195" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1581314417593" />
-    <state width="1237" height="195" key="GridCell.Tab.1.center" timestamp="1581314417593">
+    <state width="1237" height="177" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1582184711156" />
+    <state width="1237" height="206" key="GridCell.Tab.1.bottom" timestamp="1582179078749">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="195" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1581314417593" />
-    <state width="1237" height="195" key="GridCell.Tab.1.left" timestamp="1581314417593">
+    <state width="1237" height="206" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1582179078749" />
+    <state width="1237" height="206" key="GridCell.Tab.1.center" timestamp="1582179078748">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="195" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1581314417593" />
-    <state width="1237" height="195" key="GridCell.Tab.1.right" timestamp="1581314417593">
+    <state width="1237" height="206" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1582179078748" />
+    <state width="1237" height="206" key="GridCell.Tab.1.left" timestamp="1582179078748">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="195" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1581314417593" />
-    <state x="233" y="75" key="Vcs.Push.Dialog.v2" timestamp="1581164637686">
+    <state width="1237" height="206" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1582179078748" />
+    <state width="1237" height="206" key="GridCell.Tab.1.right" timestamp="1582179078749">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="75" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1581164637686" />
-    <state x="341" y="166" key="com.intellij.ide.util.TipDialog" timestamp="1581308488097">
+    <state width="1237" height="206" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1582179078749" />
+    <state x="233" y="75" key="Vcs.Push.Dialog.v2" timestamp="1582185402992">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="341" y="166" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1581308488097" />
+    <state x="233" y="75" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1582185402992" />
+    <state x="341" y="166" key="com.intellij.ide.util.TipDialog" timestamp="1582170464187">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="341" y="166" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1582170464187" />
     <state x="297" y="151" key="run.anything.popup" timestamp="1581245932458">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1581245932458" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1581309735235">
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1582177628515">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1581309735235" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1582177628515" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -330,16 +350,21 @@
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Solutions/recursion/ReverseLinkedList.java</url>
-          <line>46</line>
-          <option name="timeStamp" value="27" />
+          <url>file://$PROJECT_DIR$/src/Solutions/recursion/MaximumDepthOfBinaryTree.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="45" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Solutions/recursion/Test.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="29" />
+          <line>12</line>
+          <option name="timeStamp" value="46" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="root" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
