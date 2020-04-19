@@ -1,4 +1,6 @@
 import DataStructure.vector.Test;
+import Solutions.array.SingleNumberII;
+import Solutions.string.RepeatedDNASequences;
 
 /**
  * Created by User on 6/21/2018.
@@ -6,33 +8,8 @@ import DataStructure.vector.Test;
 public class Test1 {
 
     public static void main(String[] args) {
-
-        System.out.println("hello, we are back again");
-//        Test1 test1 = new Test1();
-//        System.out.println(test1.hasNValues(new int[]{1, 2, 2, 1}, 2));
-//        System.out.println(test1.hasNValues(new int[]{1, 1, 1, 8, 1, 1, 1, 3, 3}, 3));
-//        System.out.println(test1.hasNValues(new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, 10));
-//        System.out.println(test1.hasNValues(new int[]{1, 2, 2, 1}, 3));
-//        System.out.println(test1.hasNValues(new int[]{1, 1, 1, 8, 1, 1, 1, 3, 3}, 2));
-//        System.out.println(test1.hasNValues(new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, 20));
-
-//        System.out.println(test1.sameNumberOfFactors(-6, 21));
-//        System.out.println(test1.sameNumberOfFactors(6, 21));
-//        System.out.println(test1.sameNumberOfFactors(8, 12));
-//        System.out.println(test1.sameNumberOfFactors(23, 97));
-//        System.out.println(test1.sameNumberOfFactors(0, 1));
-//        System.out.println(test1.sameNumberOfFactors(0, 0));
-
-//        System.out.println(test1.isOnionArray(new int[]{1, 2, 19, 4, 5}));
-//        System.out.println(test1.isOnionArray(new int[]{1, 2, 3, 4, 15}));
-//        System.out.println(test1.isOnionArray(new int[]{1, 3, 9, 8}));
-//        System.out.println(test1.isOnionArray(new int[]{2}));
-//        System.out.println(test1.isOnionArray(new int[]{}));
-//        System.out.println(test1.isOnionArray(new int[]{-2, 5, 0, 5, 12}));
-//
-
-//        System.out.println(test1.isOnionArray(new int[]{1, 2, 3, 4, 5, 5, 1, 0, 9, 4}));
-
+        SingleNumberII singleNumberII = new SingleNumberII();
+        System.out.println(singleNumberII.singleNumber(new int[]{17,12,5,-6,12,4,17,-5,2,-3,2,4,5,16,-3,-4,15,15,-4,-5,-6}));
     }
 
 

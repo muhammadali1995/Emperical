@@ -7,26 +7,28 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class PalindromeLinkedList {
-    ListNode comp;
-    boolean isPal = true;
+    ListNode head;
+    ListNode left;
 
-
-    public boolean isPalindrome1(ListNode head) {
-        comp = head;
+    public boolean isPalindrome(ListNode head) {
+        left = head;
         return helper(head);
     }
 
 
-    boolean helper(ListNode head){
-        if (head == null) {
-            return isPal;
+    boolean helper(ListNode right) {
+        if (right == null) {
+            return true;
         }
-        helper(head.next);
-        if (head.val!=comp.val){
+
+        boolean result = helper(right.next);
+        if (!result) {
             return false;
         }
-        comp = comp.next;
-        return isPal;
+
+        boolean result1 = (right.val != left.val);
+        left = left.next;
+        return result1;
     }
 
 

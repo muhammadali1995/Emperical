@@ -2,10 +2,21 @@ package Solutions.recursion;
 
 import Solutions.ListNode;
 import Solutions.ReverseBits;
+import Solutions.array.MaximumSumofTwoNonOverlappingSubarrays;
+import Solutions.array.RotateArray;
 import Solutions.linkedList.PalindromeLinkedList;
 
 public class Test {
     public static void main(String[] args) {
+
+        MaximumSumofTwoNonOverlappingSubarrays maxSum = new MaximumSumofTwoNonOverlappingSubarrays();
+
+        int arr [] = new int[] {0,6,5,2,2,5,1,9,4};
+
+        int L = 1;
+        int  M = 2;
+        System.out.println(maxSum.maxSumTwoNoOverlap(arr, L, M));
+
         ListNode node = new ListNode(1);
         node.next = new ListNode(2);
         node.next.next = new ListNode(6);
