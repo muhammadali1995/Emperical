@@ -55,9 +55,12 @@ public class Test {
         lists.add(list3);
         lists.add(list4);
         lists.add(list5);
-        DisplayTableFoodOrdersRestaurant backspaceStringCompare = new DisplayTableFoodOrdersRestaurant();
 
-        System.out.println(backspaceStringCompare.displayTable(lists));
+        int [] arr = new int[] {1,3,5,6};
+
+        SearchInsertPosition backspaceStringCompare = new SearchInsertPosition();
+
+        System.out.println(backspaceStringCompare.searchInsert(arr, 0));
     }
 
 

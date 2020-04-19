@@ -2,81 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="217e77c7-eef1-4eae-a047-b9d2e046a576" name="Default" comment="recursion">
-      <change afterPath="$PROJECT_DIR$/src/InterviewPrep/DataStucture/BinarySearch/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewPrep/DataStucture/BinarySearch/BinarySearchRecursion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewPrep/DataStucture/BinarySearch/BinarySearchTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewPrep/DataStucture/DLinkedList/DLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewPrep/DataStucture/Queue/MyAQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewPrep/DataStucture/Queue/MyCircularQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewPrep/DataStucture/Queue/MyQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewPrep/DataStucture/Queue/MyQueueTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewPrep/DataStucture/SLinkedList/SLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewPrep/DataStucture/SLinkedList/SLinkedListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewPrep/DataStucture/SLinkedList/SLinkedListWithTail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewPrep/DataStucture/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewPrep/DataStucture/Vector/TestArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewPrep/DataStucture/Vector/Vector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewPrep/Solutions/AsteroidCollision.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewPrep/Solutions/BSTIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewPrep/Solutions/BackspaceStringCompare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewPrep/Solutions/BasicCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewPrep/Solutions/BestTimeToBuyAndSellStockII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewPrep/Solutions/ContainerWithMostWater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewPrep/Solutions/ContainsDuplicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewPrep/Solutions/ContainsDuplicateII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewPrep/Solutions/ContiguousArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewPrep/Solutions/CountingElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewPrep/Solutions/DailyTemperatures.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewPrep/Solutions/DiameterBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewPrep/Solutions/DisplayTableFoodOrdersRestaurant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewPrep/Solutions/DistributeCandies.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewPrep/Solutions/FibonacciNumbersWhoseSumK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewPrep/Solutions/FindMissingPositive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewPrep/Solutions/FirstUniqueCharacterString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewPrep/Solutions/FourSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewPrep/Solutions/GroupAnagrams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewPrep/Solutions/HappyNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewPrep/Solutions/HtmlEntityParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewPrep/Solutions/ImplementStackUsingQueues.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewPrep/Solutions/IsAnagram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewPrep/Solutions/LastStoneWeight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewPrep/Solutions/LinkedListCycleII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewPrep/Solutions/MaximumSubarray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewPrep/Solutions/MiddleNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewPrep/Solutions/MinStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewPrep/Solutions/MinimumAddToMakeParenthesesValid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewPrep/Solutions/MinimumIncrementToMakeArrayUnique.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewPrep/Solutions/MinimumNumberofStepstoMakeTwoStringsAnagram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewPrep/Solutions/MinimumValueGetPositiveStepSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewPrep/Solutions/MoveZeroes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewPrep/Solutions/NextGreaterElementII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewPrep/Solutions/PartitionList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewPrep/Solutions/PerformStringShifts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewPrep/Solutions/ProductfArrayExceptSelf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewPrep/Solutions/QueriesPermutationWithKey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewPrep/Solutions/ReOrderList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewPrep/Solutions/RecentCounter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewPrep/Solutions/ReformatTheString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewPrep/Solutions/RemoveDuplicatesSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewPrep/Solutions/RemoveDuplicatesfromSortedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewPrep/Solutions/RemoveDuplicatesfromSortedListII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewPrep/Solutions/RemoveElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewPrep/Solutions/ReverseLinkedListII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewPrep/Solutions/RotateArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewPrep/Solutions/StringMatchingInArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewPrep/Solutions/TaskScheduler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewPrep/Solutions/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewPrep/Solutions/ThreeSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewPrep/Solutions/ValidParenthesisString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solutions/array/MaximumSumofTwoNonOverlappingSubarrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solutions/array/RotateArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solutions/array/SingleNumberII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solutions/string/RepeatedDNASequences.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterviewPrep/Solutions/SearchInsertPosition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solutions/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solutions/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solutions/linkedList/PalindromeLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solutions/linkedList/PalindromeLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solutions/recursion/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solutions/recursion/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InterviewPrep/DataStucture/BinarySearch/BinarySearchRecursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewPrep/DataStucture/BinarySearch/BinarySearchRecursion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InterviewPrep/Solutions/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewPrep/Solutions/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +49,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
-  <component name="RunManager" selected="Application.BinarySearchTest">
+  <component name="RunManager" selected="Application.Test">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -278,8 +207,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BinarySearchTest" />
         <item itemvalue="Application.Test" />
+        <item itemvalue="Application.BinarySearchTest" />
         <item itemvalue="Application.SLinkedListTest" />
         <item itemvalue="Application.Test1" />
         <item itemvalue="Application.Test" />
@@ -345,7 +274,7 @@
       <workItem from="1586612359957" duration="24626000" />
       <workItem from="1586778663905" duration="31013000" />
       <workItem from="1587009703966" duration="12788000" />
-      <workItem from="1587097017614" duration="46533000" />
+      <workItem from="1587097017614" duration="50076000" />
     </task>
     <task id="LOCAL-00001" summary="isPalindrome">
       <created>1532521385015</created>
@@ -389,7 +318,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582185417899</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="recursion">
+      <created>1587294499276</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1587294499276</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -430,10 +366,10 @@
     </state>
     <state x="396" y="45" key="#xdebugger.evaluate/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1584428472235" />
     <state x="396" y="45" key="#xdebugger.evaluate/0.0.1280.680@0.0.1280.680" timestamp="1587274896433" />
-    <state x="287" y="0" key="CommitChangelistDialog2" timestamp="1582185429300">
+    <state x="287" y="0" key="CommitChangelistDialog2" timestamp="1587294497747">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="287" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1582185429300" />
+    <state x="287" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1587294497747" />
     <state width="456" height="438" key="DebuggerActiveHint" timestamp="1584765878890">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -444,62 +380,62 @@
     </state>
     <state x="421" y="97" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1585916445384" />
     <state x="421" y="97" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1586500739281" />
-    <state width="1237" height="216" key="GridCell.Tab.0.bottom" timestamp="1587294361782">
+    <state width="1237" height="216" key="GridCell.Tab.0.bottom" timestamp="1587298619230">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="157" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1585916066214" />
     <state width="1877" height="293" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584772198592" />
-    <state width="1237" height="216" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1587294361782" />
-    <state width="1237" height="216" key="GridCell.Tab.0.center" timestamp="1587294361782">
+    <state width="1237" height="216" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1587298619230" />
+    <state width="1237" height="216" key="GridCell.Tab.0.center" timestamp="1587298619229">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="157" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1585916066213" />
     <state width="1877" height="293" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584772198592" />
-    <state width="1237" height="216" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1587294361782" />
-    <state width="1237" height="216" key="GridCell.Tab.0.left" timestamp="1587294361782">
+    <state width="1237" height="216" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1587298619229" />
+    <state width="1237" height="216" key="GridCell.Tab.0.left" timestamp="1587298619229">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="157" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1585916066213" />
     <state width="1877" height="293" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584772198591" />
-    <state width="1237" height="216" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1587294361782" />
-    <state width="1237" height="216" key="GridCell.Tab.0.right" timestamp="1587294361782">
+    <state width="1237" height="216" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1587298619229" />
+    <state width="1237" height="216" key="GridCell.Tab.0.right" timestamp="1587298619230">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="157" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1585916066214" />
     <state width="1877" height="293" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584772198592" />
-    <state width="1237" height="216" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1587294361782" />
-    <state width="1237" height="339" key="GridCell.Tab.1.bottom" timestamp="1587293911797">
+    <state width="1237" height="216" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1587298619230" />
+    <state width="1237" height="149" key="GridCell.Tab.1.bottom" timestamp="1587298587241">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="168" key="GridCell.Tab.1.bottom/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1584783151728" />
     <state width="1877" height="293" key="GridCell.Tab.1.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584772198992" />
-    <state width="1237" height="339" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1587293911797" />
-    <state width="1237" height="339" key="GridCell.Tab.1.center" timestamp="1587293911797">
+    <state width="1237" height="149" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1587298587241" />
+    <state width="1237" height="149" key="GridCell.Tab.1.center" timestamp="1587298587241">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="168" key="GridCell.Tab.1.center/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1584783151727" />
     <state width="1877" height="293" key="GridCell.Tab.1.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584772198992" />
-    <state width="1237" height="339" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1587293911797" />
-    <state width="1237" height="339" key="GridCell.Tab.1.left" timestamp="1587293911797">
+    <state width="1237" height="149" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1587298587241" />
+    <state width="1237" height="149" key="GridCell.Tab.1.left" timestamp="1587298587240">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="168" key="GridCell.Tab.1.left/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1584783151727" />
     <state width="1877" height="293" key="GridCell.Tab.1.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584772198991" />
-    <state width="1237" height="339" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1587293911797" />
-    <state width="1237" height="339" key="GridCell.Tab.1.right" timestamp="1587293911797">
+    <state width="1237" height="149" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1587298587240" />
+    <state width="1237" height="149" key="GridCell.Tab.1.right" timestamp="1587298587241">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="168" key="GridCell.Tab.1.right/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1584783151727" />
     <state width="1877" height="293" key="GridCell.Tab.1.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584772198992" />
-    <state width="1237" height="339" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1587293911797" />
+    <state width="1237" height="149" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1587298587241" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1586425949475">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1586425949475" />
-    <state x="233" y="75" key="Vcs.Push.Dialog.v2" timestamp="1582185402992">
+    <state x="233" y="75" key="Vcs.Push.Dialog.v2" timestamp="1587294504483">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="75" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1582185402992" />
+    <state x="233" y="75" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1587294504483" />
     <state x="341" y="166" key="com.intellij.ide.util.TipDialog" timestamp="1587097043664">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -522,12 +458,12 @@
     </state>
     <state x="297" y="151" key="run.anything.popup/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1584687249084" />
     <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1587272011805" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1587266884168">
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1587298345002">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="303" y="1" width="672" height="679" key="search.everywhere.popup/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1584794115991" />
     <state x="2375" y="2" width="1008" height="1037" key="search.everywhere.popup/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584772840003" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1587266884168" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1587298345002" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -878,11 +814,6 @@
           <option name="timeStamp" value="345" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/InterviewPrep/Solutions/Test.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="346" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterviewPrep/Solutions/FibonacciNumbersWhoseSumK.java</url>
           <line>23</line>
           <option name="timeStamp" value="347" />
@@ -891,11 +822,6 @@
           <url>file://$PROJECT_DIR$/src/InterviewPrep/Solutions/FibonacciNumbersWhoseSumK.java</url>
           <line>25</line>
           <option name="timeStamp" value="350" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/InterviewPrep/Solutions/Test.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="351" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterviewPrep/Solutions/ReformatTheString.java</url>
@@ -911,6 +837,31 @@
           <url>file://$PROJECT_DIR$/src/InterviewPrep/DataStucture/BinarySearch/BinarySearchTest.java</url>
           <line>6</line>
           <option name="timeStamp" value="368" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterviewPrep/Solutions/SearchInsertPosition.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="372" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterviewPrep/Solutions/SearchInsertPosition.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="373" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterviewPrep/Solutions/SearchInsertPosition.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="374" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterviewPrep/Solutions/SearchInsertPosition.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="376" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterviewPrep/Solutions/Test.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="377" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
