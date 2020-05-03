@@ -1,2 +1,4 @@
 *.idea
 *out/*
+ComputerScience.iml
+*.idea/workspace.xml

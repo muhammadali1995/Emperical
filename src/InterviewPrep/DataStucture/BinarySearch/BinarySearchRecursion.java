@@ -7,9 +7,9 @@ public class BinarySearchRecursion {
 
     private int binarySearchHelper(int min, int max, int target, int[] arr) {
         if (max < min) {
-            return min;
+            return -1;
         }
-        int mid = min + max / 2;
+        int mid = (min + max )/ 2;
         if (arr[mid] < target) {
             return binarySearchHelper(mid + 1, max, target, arr);
         } else if (arr[mid] > target) {
