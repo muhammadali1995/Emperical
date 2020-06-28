@@ -1,6 +1,16 @@
 import DataStructure.vector.Test;
-import Solutions.array.SingleNumberII;
+import Solutions.ListNode;
+import Solutions.array.RotateArrayK;
+import Solutions.array.SortArray;
+import Solutions.binary.PowerOfTwo;
+import Solutions.linkedList.IntersectionOfTwoLinkedLists;
+import Solutions.linkedList.SwapNodePairs;
 import Solutions.string.RepeatedDNASequences;
+import Solutions.string.ReverseString;
+import Solutions.string.StringToInteger;
+
+import java.lang.reflect.Array;
+import java.util.Arrays;
 
 /**
  * Created by User on 6/21/2018.
@@ -8,8 +18,9 @@ import Solutions.string.RepeatedDNASequences;
 public class Test1 {
 
     public static void main(String[] args) {
-        SingleNumberII singleNumberII = new SingleNumberII();
-        System.out.println(singleNumberII.singleNumber(new int[]{17,12,5,-6,12,4,17,-5,2,-3,2,4,5,16,-3,-4,15,15,-4,-5,-6}));
+
+        SortArray array = new SortArray();
+        System.out.println(Arrays.toString(array.sortArray(new int[]{1, 2, 4, 3, 5, 7, 2})));
     }
 
 
@@ -17,8 +28,8 @@ public class Test1 {
 
 
         /*
-        * if the array contains one or zero number of elements, it is always true
-        * */
+         * if the array contains one or zero number of elements, it is always true
+         * */
         if (a.length <= 1) {
             return 1;
         }
@@ -39,17 +50,17 @@ public class Test1 {
         }
 
         /*
-        * if one the number is a factor of another, then they dont have equal number of factors
-        *
-        * */
+         * if one the number is a factor of another, then they dont have equal number of factors
+         *
+         * */
 
 
         if (n1 != n2 && (n1 % n2 == 0 || n2 % n1 == 0)) {
             return 0;
         }
         /*
-        * if two number are equal, they have the same number of factors
-        * */
+         * if two number are equal, they have the same number of factors
+         * */
         if (n1 == n2) {
             return 1;
         }

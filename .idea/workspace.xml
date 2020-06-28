@@ -2,11 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="217e77c7-eef1-4eae-a047-b9d2e046a576" name="Default" comment="recursion">
-      <change afterPath="$PROJECT_DIR$/src/InterviewPrep/Solutions/SearchInsertPosition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solutions/array/FinalPricesWithSpecialDiscountShop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solutions/array/FindTwoNonSubEachWithTargetSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solutions/array/MergeIntervals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solutions/array/RotateArrayK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solutions/array/RotateImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solutions/array/SortArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solutions/binary/PowerOfTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solutions/linkedList/IntersectionOfTwoLinkedLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solutions/linkedList/MaximumWidthBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solutions/linkedList/SwapNodePairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solutions/string/AddDigitis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solutions/string/ImplementStrStr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solutions/string/ReverseString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solutions/string/StringToInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solutions/tree/BinaryTreeLevelOrderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solutions/tree/CousinsBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solutions/tree/SumRootLeafNumbers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InterviewPrep/DataStucture/BinarySearch/BinarySearchRecursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewPrep/DataStucture/BinarySearch/BinarySearchRecursion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InterviewPrep/Solutions/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewPrep/Solutions/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test1.java" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,15 +63,27 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Test1">
+    <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <module />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="BinarySearchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="InterviewPrep.DataStucture.BinarySearch.BinarySearchTest" />
@@ -207,25 +235,13 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test1" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.BinarySearchTest" />
         <item itemvalue="Application.SLinkedListTest" />
-        <item itemvalue="Application.Test1" />
         <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -275,6 +291,21 @@
       <workItem from="1586778663905" duration="31013000" />
       <workItem from="1587009703966" duration="12788000" />
       <workItem from="1587097017614" duration="50076000" />
+      <workItem from="1591230763229" duration="6561000" />
+      <workItem from="1591603360688" duration="7213000" />
+      <workItem from="1591883821468" duration="3876000" />
+      <workItem from="1592058954364" duration="8621000" />
+      <workItem from="1592230312440" duration="1715000" />
+      <workItem from="1592313492256" duration="3277000" />
+      <workItem from="1592373823205" duration="2249000" />
+      <workItem from="1592402323690" duration="17000" />
+      <workItem from="1592453730397" duration="9358000" />
+      <workItem from="1592489964001" duration="15000" />
+      <workItem from="1592629687483" duration="6822000" />
+      <workItem from="1592805769372" duration="3417000" />
+      <workItem from="1592890641530" duration="12599000" />
+      <workItem from="1593179559963" duration="3523000" />
+      <workItem from="1593261316051" duration="17216000" />
     </task>
     <task id="LOCAL-00001" summary="isPalindrome">
       <created>1532521385015</created>
@@ -330,6 +361,19 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="isPalindrome" />
@@ -644,11 +688,6 @@
           <option name="timeStamp" value="210" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Test1.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="218" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterviewPrep/Solutions/NextGreaterElementII.java</url>
           <line>17</line>
           <option name="timeStamp" value="219" />
@@ -863,6 +902,41 @@
           <line>62</line>
           <option name="timeStamp" value="377" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Solutions/array/FindTwoNonSubEachWithTargetSum.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="378" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Solutions/string/StringToInteger.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="380" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Solutions/string/ReverseString.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="382" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Solutions/string/ReverseString.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="383" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Solutions/linkedList/SwapNodePairs.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="384" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Solutions/linkedList/SwapNodePairs.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="386" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Solutions/linkedList/SwapNodePairs.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="388" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -874,12 +948,12 @@
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/algo_ds$Test1.ic" NAME="Test1 Coverage Results" MODIFIED="1582632682597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/algo_ds$TestArray.ic" NAME="TestArray Coverage Results" MODIFIED="1583666500993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>InterviewPrep.DataStucture.*</FILTER>
-    </SUITE>
     <SUITE FILE_PATH="coverage/algo_ds$Test.ic" NAME="Test Coverage Results" MODIFIED="1587272012347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>InterviewPrep.Solutions.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/algo_ds$TestArray.ic" NAME="TestArray Coverage Results" MODIFIED="1583666500993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>InterviewPrep.DataStucture.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/algo_ds$Test1.ic" NAME="Test1 Coverage Results" MODIFIED="1582632682597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
