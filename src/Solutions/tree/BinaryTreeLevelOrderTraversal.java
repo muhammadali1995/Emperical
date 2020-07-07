@@ -22,7 +22,7 @@ public class BinaryTreeLevelOrderTraversal {
         List<Integer> currList = new ArrayList<>();
         while (!helperQueue.isEmpty()) {
             TreeNode currNode = helperQueue.poll();
-            currList.add(currNode.data);
+            currList.add(currNode.val);
             currentLevel--;
             if (currNode.left != null) {
                 helperQueue.offer(currNode.left);

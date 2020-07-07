@@ -21,7 +21,7 @@ public class BST {
             TreeNode parentNode = findParentNode(root, val);
             TreeNode right = parentNode.right;
             TreeNode left = parentNode.left;
-            if (parentNode.data >= val) {
+            if (parentNode.val >= val) {
                 parentNode.left = new TreeNode(val);
                 parentNode.left.left = left;
             } else {
@@ -34,13 +34,13 @@ public class BST {
 
     private TreeNode findParentNode(TreeNode root, int val) {
         while (root != null) {
-            if (root.data <= val && (root.right == null)) {
+            if (root.val <= val && (root.right == null)) {
                 return root;
-            } else if (root.data > val && (root.left == null)) {
+            } else if (root.val > val && (root.left == null)) {
                 return root;
-            } else if (root.data < val) {
+            } else if (root.val < val) {
                 root = root.right;
-            } else if (root.data > val) {
+            } else if (root.val > val) {
                 root = root.left;
             }
         }
@@ -60,7 +60,7 @@ public class BST {
             return;
         }
         inOrderTraverse(root.left);
-        System.out.println(root.data);
+        System.out.println(root.val);
         inOrderTraverse(root.right);
     }
 
@@ -74,17 +74,17 @@ public class BST {
             return;
         }
         postOrderSum(root.right);
-        sum += root.data;
-        root.data = sum;
+        sum += root.val;
+        root.val = sum;
         postOrderSum(root.left);
     }
 
     public boolean isInTree(int val) {
         TreeNode curr = root;
         while (curr != null) {
-            if (curr.data == val) {
+            if (curr.val == val) {
                 return true;
-            } else if (curr.data > val) {
+            } else if (curr.val > val) {
                 curr = curr.left;
             } else {
                 curr = curr.right;
@@ -94,10 +94,10 @@ public class BST {
     }
 
     public int getMin() {
-        int min = root.data;
+        int min = root.val;
         TreeNode curr = root;
         while (curr != null) {
-            min = curr.data;
+            min = curr.val;
             curr = curr.left;
         }
         return min;
@@ -105,9 +105,9 @@ public class BST {
 
     public int getMax() {
         TreeNode curr = root;
-        int max = curr.data;
+        int max = curr.val;
         while (curr != null) {
-            max = curr.data;
+            max = curr.val;
             curr = curr.right;
         }
         return max;
@@ -125,9 +125,9 @@ public class BST {
 
     private TreeNode findParent(TreeNode root, int val) {
         while (root != null) {
-            if (root.data == val) {
+            if (root.val == val) {
                 return root;
-            } else if (root.data <= val) {
+            } else if (root.val <= val) {
                 root = root.right;
             } else {
                 root = root.left;

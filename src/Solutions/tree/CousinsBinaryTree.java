@@ -1,11 +1,8 @@
 package Solutions.tree;
 
 import InterviewPrep.DataStucture.BinarySearchTree.TreeNode;
-import com.sun.source.tree.Tree;
 
-import java.util.ArrayList;
 import java.util.LinkedList;
-import java.util.List;
 import java.util.Queue;
 
 public class CousinsBinaryTree {
@@ -25,7 +22,7 @@ public class CousinsBinaryTree {
             TreeNode currNode = helperQueue.poll();
             if (currNode != null) {
                 if (checkIfHasSameParent(currNode, x, y)) return false;
-                if (currNode.data==x|| currNode.data==y) count++;
+                if (currNode.val ==x|| currNode.val ==y) count++;
                 helperQueue.add(currNode.left);
                 helperQueue.add(currNode.right);
                 newLevel += 2;
@@ -43,7 +40,7 @@ public class CousinsBinaryTree {
 
     private boolean checkIfHasSameParent(TreeNode node, int x, int y) {
         if (node.left != null && node.right != null) {
-            if ((node.left.data == x && node.right.data == y) || (node.left.data == y && node.right.data == x))
+            if ((node.left.val == x && node.right.val == y) || (node.left.val == y && node.right.val == x))
                 return true;
         }
         return false;

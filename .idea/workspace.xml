@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="217e77c7-eef1-4eae-a047-b9d2e046a576" name="Default" comment="recursion">
-      <change afterPath="$PROJECT_DIR$/src/Solutions/array/FinalPricesWithSpecialDiscountShop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solutions/array/FindTwoNonSubEachWithTargetSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solutions/array/MergeIntervals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solutions/array/RotateArrayK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solutions/array/RotateImage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solutions/array/SortArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solutions/binary/PowerOfTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solutions/linkedList/IntersectionOfTwoLinkedLists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solutions/linkedList/MaximumWidthBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solutions/linkedList/SwapNodePairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solutions/string/AddDigitis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solutions/string/ImplementStrStr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solutions/string/ReverseString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solutions/string/StringToInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solutions/tree/BinaryTreeLevelOrderTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solutions/tree/CousinsBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solutions/tree/SumRootLeafNumbers.java" afterDir="false" />
+    <list default="true" id="217e77c7-eef1-4eae-a047-b9d2e046a576" name="Default" comment="New solutions">
+      <change afterPath="$PROJECT_DIR$/src/Solutions/array/SortColors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solutions/array/WiggleSortII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solutions/linkedList/DeleteNodeLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solutions/linkedList/SortList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solutions/tree/AverageofLevelsinBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solutions/tree/BinaryTreeLevelOrderTraversalII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solutions/tree/MinimumDepthofBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solutions/tree/NaryTreeLevelOrderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solutions/tree/ValidateBinarySearchTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InterviewPrep/DataStucture/BinarySearchTree/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewPrep/DataStucture/BinarySearchTree/BST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InterviewPrep/DataStucture/BinarySearchTree/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewPrep/DataStucture/BinarySearchTree/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solutions/array/MergeIntervals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solutions/array/MergeIntervals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solutions/array/SortArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solutions/array/SortArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solutions/linkedList/MaximumWidthBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solutions/linkedList/MaximumWidthBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solutions/tree/BinaryTreeLevelOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solutions/tree/BinaryTreeLevelOrderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solutions/tree/CousinsBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solutions/tree/CousinsBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solutions/tree/SumRootLeafNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solutions/tree/SumRootLeafNumbers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test1.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -306,6 +306,14 @@
       <workItem from="1592890641530" duration="12599000" />
       <workItem from="1593179559963" duration="3523000" />
       <workItem from="1593261316051" duration="17216000" />
+      <workItem from="1593352572770" duration="8516000" />
+      <workItem from="1593411757159" duration="21442000" />
+      <workItem from="1593442190751" duration="3211000" />
+      <workItem from="1593489504473" duration="11949000" />
+      <workItem from="1593605964585" duration="17000" />
+      <workItem from="1594014493940" duration="2354000" />
+      <workItem from="1594041256959" duration="32000" />
+      <workItem from="1594092265283" duration="3393000" />
     </task>
     <task id="LOCAL-00001" summary="isPalindrome">
       <created>1532521385015</created>
@@ -356,7 +364,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587294499276</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="New solutions">
+      <created>1593352593527</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1593352593527</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -378,7 +393,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="isPalindrome" />
     <MESSAGE value="recursion" />
-    <option name="LAST_COMMIT_MESSAGE" value="recursion" />
+    <MESSAGE value="New solutions" />
+    <option name="LAST_COMMIT_MESSAGE" value="New solutions" />
   </component>
   <component name="WindowStateProjectService">
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587278592949">
@@ -556,31 +572,6 @@
           <url>file://$PROJECT_DIR$/src/Solutions/recursion/Test.java</url>
           <line>17</line>
           <option name="timeStamp" value="61" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Solutions/array/MaximumSumofTwoNonOverlappingSubarrays.java</url>
-          <line>8</line>
-          <option name="timeStamp" value="62" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Solutions/array/MaximumSumofTwoNonOverlappingSubarrays.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="63" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Solutions/array/MaximumSumofTwoNonOverlappingSubarrays.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="64" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Solutions/array/MaximumSumofTwoNonOverlappingSubarrays.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="65" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Solutions/array/MaximumSumofTwoNonOverlappingSubarrays.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="66" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterviewPrep/DataStucture/Vector/Vector.java</url>
