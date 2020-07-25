@@ -1,6 +1,6 @@
+import Solutions.DivideTwoIntegers;
 import Solutions.ListNode;
-import Solutions.array.SortArray;
-import Solutions.array.WiggleSortII;
+import Solutions.array.*;
 import Solutions.linkedList.SortList;
 
 import java.lang.reflect.Array;
@@ -13,13 +13,10 @@ import java.util.LinkedList;
 public class Test1 {
 
     public static void main(String[] args) {
-        ListNode node = new ListNode(4);
-        node.next = new ListNode(2);
-        node.next.next = new ListNode(1);
-        node.next.next.next = new ListNode(3);
-        node.next.next.next.next = new ListNode(5);
-        WiggleSortII array = new WiggleSortII();
-        array.wiggleSort(new int[]{5, 4,2});
+
+        IsomorphicStrings decreasingArray = new IsomorphicStrings();
+        System.out.println(decreasingArray.isIsomorphic("aba", "aab"));
+
     }
 
 

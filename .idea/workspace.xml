@@ -2,24 +2,52 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="217e77c7-eef1-4eae-a047-b9d2e046a576" name="Default" comment="New solutions">
-      <change afterPath="$PROJECT_DIR$/src/Solutions/array/SortColors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solutions/array/WiggleSortII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solutions/linkedList/DeleteNodeLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solutions/linkedList/SortList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solutions/tree/AverageofLevelsinBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solutions/tree/BinaryTreeLevelOrderTraversalII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solutions/tree/MinimumDepthofBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solutions/tree/NaryTreeLevelOrderTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solutions/tree/ValidateBinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Letters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Points.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Shorten.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solutions/DivideTwoIntegers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solutions/MergeTwoBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solutions/Nestin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solutions/SumOfTwoIntegers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solutions/array/CanPlaceFlowers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solutions/array/CreateTargetArrayGivenOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solutions/array/DecompressRunEncodedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solutions/array/FactorialTrailingZeroes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solutions/array/FindAllNumbersDisappearedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solutions/array/FindNUniqueIntegersSumuptoZero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solutions/array/FindNumbersEvenNumberDigits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solutions/array/FrogJump.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solutions/array/HouseRobber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solutions/array/IsomorphicStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solutions/array/MinMissingElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solutions/array/MinimumTimeVisitingAllPoints.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solutions/array/MissingElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solutions/array/NonDecreasingArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solutions/array/OddNumberInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solutions/array/ReplaceElementswithGreatestElementonRightSide.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solutions/array/XOROperationArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solutions/codility/DNA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solutions/codility/DistinctValues.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solutions/codility/DivisibleByK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solutions/codility/Fish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solutions/codility/FrogRiverOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solutions/codility/Intersection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solutions/codility/MaxCounters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solutions/codility/MinSlice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solutions/codility/MissingInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solutions/codility/NestedString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solutions/codility/PassingCars.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solutions/codility/PermCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solutions/codility/ProductOfTriplets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solutions/codility/Tape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solutions/codility/Triangular.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solutions/string/FindWordsThatCanBeFormedbyCharacters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solutions/string/ReverseWordInAString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solutions/string/isIsomorphic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solutions/tree/SymmetricTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InterviewPrep/DataStucture/BinarySearchTree/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewPrep/DataStucture/BinarySearchTree/BST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InterviewPrep/DataStucture/BinarySearchTree/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewPrep/DataStucture/BinarySearchTree/TreeNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Solutions/array/MergeIntervals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solutions/array/MergeIntervals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solutions/array/SortArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solutions/array/SortArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solutions/linkedList/MaximumWidthBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solutions/linkedList/MaximumWidthBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solutions/tree/BinaryTreeLevelOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solutions/tree/BinaryTreeLevelOrderTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solutions/tree/CousinsBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solutions/tree/CousinsBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solutions/tree/SumRootLeafNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solutions/tree/SumRootLeafNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solutions/linkedList/IntersectionOfTwoLinkedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solutions/linkedList/IntersectionOfTwoLinkedLists.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test1.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,6 +62,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -54,6 +83,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ToolWindowDebug.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -78,20 +108,34 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test1">
+  <component name="RunManager" selected="Application.Shorten">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinarySearchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterviewPrep.DataStucture.BinarySearch.BinarySearchTest" />
+    <configuration name="DNA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solutions.codility.DNA" />
       <module name="ComputerScience" />
-      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InterviewPrep.DataStucture.BinarySearch.*" />
+          <option name="PATTERN" value="Solutions.codility.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinSlice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solutions.codility.MinSlice" />
+      <module name="ComputerScience" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Solutions.codility.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,27 +157,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SLinkedListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterviewPrep.DataStucture.SLinkedList.SLinkedListTest" />
-      <module name="ComputerScience" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="InterviewPrep.DataStucture.SLinkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SockMerchant" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Solutions.array.SockMerchant" />
+    <configuration name="NestedString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solutions.codility.NestedString" />
       <module name="ComputerScience" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Solutions.array.*" />
+          <option name="PATTERN" value="Solutions.codility.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,13 +171,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterviewPrep.Solutions.Test" />
+    <configuration name="ProductOfTriplets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solutions.codility.ProductOfTriplets" />
       <module name="ComputerScience" />
-      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InterviewPrep.Solutions.*" />
+          <option name="PATTERN" value="Solutions.codility.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,8 +185,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test1" />
+    <configuration name="Shorten" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Shorten" />
       <module name="ComputerScience" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -227,19 +257,19 @@
       <item itemvalue="Application.MyQueueTest" />
       <item itemvalue="Application.TestArray" />
       <item itemvalue="Application.TestHash" />
-      <item itemvalue="Application.Test1" />
-      <item itemvalue="Application.SockMerchant" />
-      <item itemvalue="Application.Test" />
-      <item itemvalue="Application.SLinkedListTest" />
-      <item itemvalue="Application.BinarySearchTest" />
+      <item itemvalue="Application.DNA" />
+      <item itemvalue="Application.MinSlice" />
+      <item itemvalue="Application.ProductOfTriplets" />
+      <item itemvalue="Application.NestedString" />
+      <item itemvalue="Application.Shorten" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test1" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.BinarySearchTest" />
-        <item itemvalue="Application.SLinkedListTest" />
-        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Shorten" />
+        <item itemvalue="Application.NestedString" />
+        <item itemvalue="Application.ProductOfTriplets" />
+        <item itemvalue="Application.MinSlice" />
+        <item itemvalue="Application.DNA" />
       </list>
     </recent_temporary>
   </component>
@@ -313,7 +343,25 @@
       <workItem from="1593605964585" duration="17000" />
       <workItem from="1594014493940" duration="2354000" />
       <workItem from="1594041256959" duration="32000" />
-      <workItem from="1594092265283" duration="3393000" />
+      <workItem from="1594092265283" duration="20293000" />
+      <workItem from="1594180351727" duration="4268000" />
+      <workItem from="1594267955760" duration="5332000" />
+      <workItem from="1594295711915" duration="128000" />
+      <workItem from="1594385193637" duration="4908000" />
+      <workItem from="1594438932879" duration="12758000" />
+      <workItem from="1594811834593" duration="103000" />
+      <workItem from="1594868961111" duration="8525000" />
+      <workItem from="1594959115650" duration="10084000" />
+      <workItem from="1595044830020" duration="5967000" />
+      <workItem from="1595129506897" duration="8980000" />
+      <workItem from="1595212738991" duration="14607000" />
+      <workItem from="1595243882240" duration="102000" />
+      <workItem from="1595301655889" duration="10633000" />
+      <workItem from="1595317592351" duration="154000" />
+      <workItem from="1595388849020" duration="3208000" />
+      <workItem from="1595394301835" duration="1280000" />
+      <workItem from="1595479739484" duration="1401000" />
+      <workItem from="1595497580158" duration="323000" />
     </task>
     <task id="LOCAL-00001" summary="isPalindrome">
       <created>1532521385015</created>
@@ -371,7 +419,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593352593527</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="New solutions">
+      <created>1594096279073</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1594096279073</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -927,6 +982,86 @@
           <url>file://$PROJECT_DIR$/src/Solutions/linkedList/SwapNodePairs.java</url>
           <line>8</line>
           <option name="timeStamp" value="388" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Solutions/DivideTwoIntegers.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="391" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Test1.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="392" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Solutions/array/CanPlaceFlowers.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="398" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Solutions/array/IsomorphicStrings.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="399" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Solutions/array/IsomorphicStrings.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="400" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Solutions/array/IsomorphicStrings.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="401" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Solutions/array/FindAllNumbersDisappearedArray.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="405" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Solutions/codility/MissingInteger.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="421" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Solutions/codility/MissingInteger.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="424" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Solutions/codility/MinSlice.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="425" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Solutions/codility/NestedString.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="432" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Solutions/codility/NestedString.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="433" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Solutions/codility/NestedString.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="434" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Solutions/codility/NestedString.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="436" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Solutions/codility/NestedString.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="437" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Shorten.java</url>
+          <line>3</line>
+          <option name="timeStamp" value="439" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
