@@ -1,4 +1,4 @@
-package InterviewPrep.DataStucture.BinarySearchTree;
+package DataStructure;
 
 public class TreeNode {
     public int val;
@@ -12,7 +12,7 @@ public class TreeNode {
         this.val = val;
     }
 
-    TreeNode(int val, TreeNode left, TreeNode right) {
+    TreeNode(int val, TreeNode right, TreeNode left) {
         this.val = val;
         this.left = left;
         this.right = right;

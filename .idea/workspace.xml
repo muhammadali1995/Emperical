@@ -2,55 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="217e77c7-eef1-4eae-a047-b9d2e046a576" name="Default" comment="New solutions">
-      <change afterPath="$PROJECT_DIR$/src/Letters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Points.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Shorten.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solutions/DivideTwoIntegers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solutions/MergeTwoBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solutions/Nestin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solutions/SumOfTwoIntegers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solutions/array/CanPlaceFlowers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solutions/array/CreateTargetArrayGivenOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solutions/array/DecompressRunEncodedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solutions/array/FactorialTrailingZeroes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solutions/array/FindAllNumbersDisappearedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solutions/array/FindNUniqueIntegersSumuptoZero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solutions/array/FindNumbersEvenNumberDigits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solutions/array/FrogJump.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solutions/array/HouseRobber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solutions/array/IsomorphicStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solutions/array/MinMissingElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solutions/array/MinimumTimeVisitingAllPoints.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solutions/array/MissingElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solutions/array/NonDecreasingArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solutions/array/OddNumberInArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solutions/array/ReplaceElementswithGreatestElementonRightSide.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solutions/array/XOROperationArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solutions/codility/DNA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solutions/codility/DistinctValues.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solutions/codility/DivisibleByK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solutions/codility/Fish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solutions/codility/FrogRiverOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solutions/codility/Intersection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solutions/codility/MaxCounters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solutions/codility/MinSlice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solutions/codility/MissingInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solutions/codility/NestedString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solutions/codility/PassingCars.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solutions/codility/PermCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solutions/codility/ProductOfTriplets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solutions/codility/Tape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solutions/codility/Triangular.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solutions/string/FindWordsThatCanBeFormedbyCharacters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solutions/string/ReverseWordInAString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solutions/string/isIsomorphic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solutions/tree/SymmetricTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DataStructure/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ToptalPrep/IncreasingOrderSearchTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solutions/array/MergeIntervals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solutions/array/MergeIntervals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solutions/linkedList/IntersectionOfTwoLinkedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solutions/linkedList/IntersectionOfTwoLinkedLists.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InterviewPrep/DataStucture/BinarySearchTree/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewPrep/DataStucture/BinarySearchTree/TreeNode.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,10 +35,11 @@
   <component name="ProjectId" id="1WvoCKjJPFQmqiEhgrIpp84Lixz" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="ToolWindowDebug.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -96,21 +53,34 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager" selected="Application.Shorten">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -228,31 +198,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="TestNG">
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file enabled="true" id="idea.log" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.MyQueueTest" />
       <item itemvalue="Application.TestArray" />
@@ -273,6 +218,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -430,20 +376,19 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="isPalindrome" />
@@ -1074,12 +1019,12 @@
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/algo_ds$Test.ic" NAME="Test Coverage Results" MODIFIED="1587272012347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>InterviewPrep.Solutions.*</FILTER>
-    </SUITE>
+    <SUITE FILE_PATH="coverage/algo_ds$Test1.ic" NAME="Test1 Coverage Results" MODIFIED="1582632682597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/algo_ds$TestArray.ic" NAME="TestArray Coverage Results" MODIFIED="1583666500993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>InterviewPrep.DataStucture.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/algo_ds$Test1.ic" NAME="Test1 Coverage Results" MODIFIED="1582632682597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/algo_ds$Test.ic" NAME="Test Coverage Results" MODIFIED="1587272012347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>InterviewPrep.Solutions.*</FILTER>
+    </SUITE>
   </component>
 </project>
