@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="217e77c7-eef1-4eae-a047-b9d2e046a576" name="Default" comment="toptal prep started">
-      <change afterPath="$PROJECT_DIR$/src/ToptalPrep/JewelsAndStones.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="217e77c7-eef1-4eae-a047-b9d2e046a576" name="Default" comment="jewels and stones">
+      <change afterPath="$PROJECT_DIR$/src/ToptalPrep/DefangingIPAddress.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -378,7 +377,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607081847724</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="jewels and stones">
+      <created>1607083355943</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1607083355943</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -401,7 +407,8 @@
     <MESSAGE value="recursion" />
     <MESSAGE value="New solutions" />
     <MESSAGE value="toptal prep started" />
-    <option name="LAST_COMMIT_MESSAGE" value="toptal prep started" />
+    <MESSAGE value="jewels and stones" />
+    <option name="LAST_COMMIT_MESSAGE" value="jewels and stones" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
