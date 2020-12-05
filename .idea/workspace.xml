@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="217e77c7-eef1-4eae-a047-b9d2e046a576" name="Default" comment="balanced string">
-      <change afterPath="$PROJECT_DIR$/src/ToptalPrep/DecompressRunLengthEncodedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ToptalPrep/HammingDistance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ToptalPrep/KidsWithGreatestNumberCandies.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ToptalPrep/NumberofStepstoReduceaNumbertoZero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ToptalPrep/RangeSumBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ToptalPrep/ShuffleTheArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ToptalPrep/SplitStringBalancedStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ToptalPrep/SubtractProductSumDigitsInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ToptalPrep/SumOf1dArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ToptalPrep/ToLowerCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ToptalPrep/HowManyNumbersAreSmallerThanCurrentNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +51,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
-  <component name="RunManager" selected="Application.SplitStringBalancedStrings">
+  <component name="RunManager" selected="Application.HowManyNumbersAreSmallerThanCurrentNumber">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -120,6 +111,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HowManyNumbersAreSmallerThanCurrentNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ToptalPrep.HowManyNumbersAreSmallerThanCurrentNumber" />
+      <module name="ComputerScience" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ToptalPrep.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MyQueueTest" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="InterviewPrep.DataStucture.Queue.MyQueueTest" />
       <module name="ComputerScience" />
@@ -150,20 +155,6 @@
     </configuration>
     <configuration name="SplitStringBalancedStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ToptalPrep.SplitStringBalancedStrings" />
-      <module name="ComputerScience" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ToptalPrep.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SubtractProductSumDigitsInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ToptalPrep.SubtractProductSumDigitsInteger" />
       <module name="ComputerScience" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -215,19 +206,19 @@
       <item itemvalue="Application.MyQueueTest" />
       <item itemvalue="Application.TestArray" />
       <item itemvalue="Application.TestHash" />
-      <item itemvalue="Application.SubtractProductSumDigitsInteger" />
       <item itemvalue="Application.HammingDistance" />
       <item itemvalue="Application.NumberofStepstoReduceaNumbertoZero" />
       <item itemvalue="Application.DecompressRunLengthEncodedList" />
       <item itemvalue="Application.SplitStringBalancedStrings" />
+      <item itemvalue="Application.HowManyNumbersAreSmallerThanCurrentNumber" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HowManyNumbersAreSmallerThanCurrentNumber" />
         <item itemvalue="Application.SplitStringBalancedStrings" />
         <item itemvalue="Application.DecompressRunLengthEncodedList" />
         <item itemvalue="Application.NumberofStepstoReduceaNumbertoZero" />
         <item itemvalue="Application.HammingDistance" />
-        <item itemvalue="Application.SubtractProductSumDigitsInteger" />
       </list>
     </recent_temporary>
   </component>
@@ -406,7 +397,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607083709331</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="balanced string">
+      <created>1607146311169</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1607146311169</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
