@@ -1,23 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="217e77c7-eef1-4eae-a047-b9d2e046a576" name="Default" comment="number of smaller elements">
-      <change afterPath="$PROJECT_DIR$/src/ToptalPrep/CreateTargetArrayGivenOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ToptalPrep/FlippingImage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ToptalPrep/GetDifferentNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ToptalPrep/MaximumDepthOfNaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ToptalPrep/MergeTwoBinaryTrees.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ToptalPrep/NaryTreePreorderTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ToptalPrep/NumberGoodPairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ToptalPrep/PairOfSongs60.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ToptalPrep/PartitionLabels.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ToptalPrep/ResverseWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ToptalPrep/ReverseLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ToptalPrep/ReverseString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ToptalPrep/SelfDividingNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ToptalPrep/UniqueMorseCodeWords.java" afterDir="false" />
+    <list default="true" id="217e77c7-eef1-4eae-a047-b9d2e046a576" name="Default" comment="updates">
+      <change afterPath="$PROJECT_DIR$/src/ToptalPrep/BinaryGap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ToptalPrep/HappyNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ToptalPrep/KeyBoarRow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ToptalPrep/LuckyNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ToptalPrep/MaxProfit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ToptalPrep/MaxValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ToptalPrep/OccurencesAfterBigram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ToptalPrep/OrderedStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ToptalPrep/PalindromNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ToptalPrep/SortByBitCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ToptalPrep/Subdomain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ToptalPrep/Subset.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ToptalPrep/SumOfOddLengthSubArr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ToptalPrep/TransposeMatrix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solutions/SumOfTwoIntegers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solutions/SumOfTwoIntegers.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +64,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
-  <component name="RunManager" selected="Application.ReverseLinkedList">
+  <component name="RunManager" selected="Application.HappyNumber">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -97,8 +96,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetDifferentNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ToptalPrep.GetDifferentNumber" />
+    <configuration name="HappyNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ToptalPrep.HappyNumber" />
+      <module name="ComputerScience" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ToptalPrep.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaxProfit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ToptalPrep.MaxProfit" />
       <module name="ComputerScience" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -125,8 +138,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PartitionLabels" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ToptalPrep.PartitionLabels" />
+    <configuration name="OccurencesAfterBigram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ToptalPrep.OccurencesAfterBigram" />
       <module name="ComputerScience" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -139,41 +152,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ResverseWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ToptalPrep.ResverseWords" />
+    <configuration name="PalindromNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ToptalPrep.PalindromNumber" />
       <module name="ComputerScience" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ToptalPrep.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReverseLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ToptalPrep.ReverseLinkedList" />
-      <module name="ComputerScience" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ToptalPrep.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SumOfTwoIntegers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Solutions.SumOfTwoIntegers" />
-      <module name="ComputerScience" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Solutions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -210,6 +195,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TransposeMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ToptalPrep.TransposeMatrix" />
+      <module name="ComputerScience" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ToptalPrep.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -220,19 +219,19 @@
       <item itemvalue="Application.MyQueueTest" />
       <item itemvalue="Application.TestArray" />
       <item itemvalue="Application.TestHash" />
-      <item itemvalue="Application.GetDifferentNumber" />
-      <item itemvalue="Application.ResverseWords" />
-      <item itemvalue="Application.PartitionLabels" />
-      <item itemvalue="Application.SumOfTwoIntegers" />
-      <item itemvalue="Application.ReverseLinkedList" />
+      <item itemvalue="Application.TransposeMatrix" />
+      <item itemvalue="Application.MaxProfit" />
+      <item itemvalue="Application.PalindromNumber" />
+      <item itemvalue="Application.OccurencesAfterBigram" />
+      <item itemvalue="Application.HappyNumber" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ReverseLinkedList" />
-        <item itemvalue="Application.SumOfTwoIntegers" />
-        <item itemvalue="Application.PartitionLabels" />
-        <item itemvalue="Application.ResverseWords" />
-        <item itemvalue="Application.GetDifferentNumber" />
+        <item itemvalue="Application.HappyNumber" />
+        <item itemvalue="Application.OccurencesAfterBigram" />
+        <item itemvalue="Application.PalindromNumber" />
+        <item itemvalue="Application.MaxProfit" />
+        <item itemvalue="Application.TransposeMatrix" />
       </list>
     </recent_temporary>
   </component>
@@ -425,7 +424,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607147437649</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="updates">
+      <created>1609133967066</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1609133967066</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -452,7 +458,8 @@
     <MESSAGE value="IP defangger" />
     <MESSAGE value="balanced string" />
     <MESSAGE value="number of smaller elements" />
-    <option name="LAST_COMMIT_MESSAGE" value="number of smaller elements" />
+    <MESSAGE value="updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="updates" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -981,6 +988,41 @@
           <url>file://$PROJECT_DIR$/src/Solutions/SumOfTwoIntegers.java</url>
           <line>54</line>
           <option name="timeStamp" value="469" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ToptalPrep/SumOfOddLengthSubArr.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="473" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ToptalPrep/KeyBoarRow.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="474" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ToptalPrep/Subset.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="475" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ToptalPrep/TransposeMatrix.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="480" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ToptalPrep/PalindromNumber.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="486" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ToptalPrep/PalindromNumber.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="487" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ToptalPrep/PalindromNumber.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="488" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
