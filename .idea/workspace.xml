@@ -2,24 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="217e77c7-eef1-4eae-a047-b9d2e046a576" name="Default" comment="updates">
-      <change afterPath="$PROJECT_DIR$/src/ToptalPrep/BinaryAddition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ToptalPrep/Candies.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ToptalPrep/CountBinaryStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ToptalPrep/DaysOfTheWeek.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ToptalPrep/DegreeOfAnArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ToptalPrep/FairCandySwap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ToptalPrep/Grants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ToptalPrep/LargestPerimeterTriangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ToptalPrep/LastStone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ToptalPrep/MaximumNumberofBalloons.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ToptalPrep/MaximumUnitsonaTruck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ToptalPrep/MinimumValueGetPositiveStepStepSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ToptalPrep/ReverseOnlyLetters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ToptalPrep/RotatedDigits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ToptalPrep/SetenceReverse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ToptalPrep/SrufaceAreaOf3dShapes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ToptalPrep/SumOfEvenNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ToptalPrep/SymmetricTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ToptalPrep/AssignCookies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ToptalPrep/IsSubSequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ToptalPrep/MinimumMovesEqualArrayElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ToptalPrep/RelativeRanks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +54,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
-  <component name="RunManager" selected="Application.DegreeOfAnArray">
+  <component name="RunManager" selected="Application.RelativeRanks">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -114,8 +100,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Grants" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ToptalPrep.Grants" />
+    <configuration name="IsSubSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ToptalPrep.IsSubSequence" />
       <module name="ComputerScience" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -142,6 +128,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MinimumMovesEqualArrayElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ToptalPrep.MinimumMovesEqualArrayElements" />
+      <module name="ComputerScience" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ToptalPrep.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MyQueueTest" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="InterviewPrep.DataStucture.Queue.MyQueueTest" />
       <module name="ComputerScience" />
@@ -156,22 +156,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RotatedDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ToptalPrep.RotatedDigits" />
-      <module name="ComputerScience" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ToptalPrep.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SumOfEvenNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ToptalPrep.SumOfEvenNumbers" />
+    <configuration name="RelativeRanks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ToptalPrep.RelativeRanks" />
       <module name="ComputerScience" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -223,19 +209,19 @@
       <item itemvalue="Application.MyQueueTest" />
       <item itemvalue="Application.TestArray" />
       <item itemvalue="Application.TestHash" />
-      <item itemvalue="Application.SumOfEvenNumbers" />
-      <item itemvalue="Application.Grants" />
-      <item itemvalue="Application.RotatedDigits" />
       <item itemvalue="Application.LargestPerimeterTriangle" />
       <item itemvalue="Application.DegreeOfAnArray" />
+      <item itemvalue="Application.MinimumMovesEqualArrayElements" />
+      <item itemvalue="Application.IsSubSequence" />
+      <item itemvalue="Application.RelativeRanks" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RelativeRanks" />
+        <item itemvalue="Application.IsSubSequence" />
+        <item itemvalue="Application.MinimumMovesEqualArrayElements" />
         <item itemvalue="Application.DegreeOfAnArray" />
         <item itemvalue="Application.LargestPerimeterTriangle" />
-        <item itemvalue="Application.RotatedDigits" />
-        <item itemvalue="Application.Grants" />
-        <item itemvalue="Application.SumOfEvenNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -1072,6 +1058,11 @@
           <url>file://$PROJECT_DIR$/src/ToptalPrep/LargestPerimeterTriangle.java</url>
           <line>17</line>
           <option name="timeStamp" value="528" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ToptalPrep/MinimumMovesEqualArrayElements.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="550" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
